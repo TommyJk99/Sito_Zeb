@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+}
+
+header div{
+    border-bottom: 2px solid black;
+}
+
+.mar-bttm{
+    margin-bottom: 2rem;
+}
+
+.bg-imm{
+    background-image: url(/img_zeb/sfondo_zeb.jpg);
+}
+
+.red{
+    color:#ad0707;
+}
+
+.white{
+    color: white
+}
+
+.lin-red{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(173,7,7,1) 50%, rgba(242,185,105,1) 100%);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+header span{
+    color: white;
+    margin-left: 5rem;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.fb-alignC{
+    align-items: center;
+}
+
+.fb-jusC{
+    justify-content: space-around;
+}
+
+.fb-shrink{
+    flex-shrink: 100;
+}
+
+.paddH{
+    padding:0.5rem;
+}
+
+.colHov:hover{
+    color:black !important;
+    background-color:#ffffff;
+    border-radius: 50px;
+    box-shadow: 2px 2px 12px 4px #ffffff;
+    padding: 10px;
+}/*DA AGGIUSTARE*/
+
+.box-words{
+    width: 434px;
+}
+
+
+
+
