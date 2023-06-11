@@ -4,20 +4,25 @@ body{
     margin:0;
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik', sans-serif;
-    background-color: white;
+    background-image: url(/img_zeb/sfondo_zeb.jpg);
 }
 
+/*COLORI SFUMATURE IMMAGINI TESTO*/
 header div{
     border-bottom: 2px solid black;
 }
 
-.mar-bttm{
-    margin-bottom: 2rem;
+.bg-color-1{
+    background: rgb(0, 0, 0, 0.93);
 }
 
-.bg-imm{
-    background-image: url(/img_zeb/sfondo_zeb.jpg);
+.border-full{
+    border: 2px solid black;
 }
+
+.border-radius{
+    border-radius: 10px;
+}/*non funziona*/
 
 .red{
     color:#ad0707;
@@ -27,9 +32,21 @@ header div{
     color: white
 }
 
+.black{
+    color: black
+}
+
 .lin-red{
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(173,7,7,1) 50%, rgba(242,185,105,1) 100%);
+}
+
+.opacityFull
+{
+    opacity: 1;
+}
+.opacityLow{
+    opacity: 0.3;
 }
 
 .bold{
@@ -46,6 +63,17 @@ header a{
     color: white;
 }
 
+header span{
+    color: white;
+    margin-left: 5rem;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+/*FLEXBOX*/
 .flexbox{
     display: flex;
 }
@@ -58,13 +86,51 @@ header a{
     justify-content: space-around;
 }
 
-.fb-shrink{
-    flex-shrink: 100;
-}
-
+/*MARGINI E PADDING*/
 .paddH{
     padding:0.5rem;
 }
+
+.marginLR{
+    margin: 0 15rem;
+    
+}
+
+.marginL2{
+    margin-left:2rem;
+}
+
+.marginR6{
+    margin-right:22rem;
+}
+
+.padd2{
+    padding:2rem;
+}
+.marL1{
+    margin-left: 1rem;
+}
+
+.mar-bttm{
+    margin-bottom: 4rem;
+}
+
+.mar-bttm2{
+    margin-bottom: 3rem;
+}
+
+.box-words{
+    width: 434px;
+}
+.inline{
+    display: inline-block;
+}
+
+.border-text{
+    margin-bottom: 1rem;
+}
+
+/*ALTRO*/
 
 .colHov:hover{
     color:black !important;
@@ -74,10 +140,21 @@ header a{
     padding: 10px;
 }/*DA AGGIUSTARE*/
 
-.box-words{
-    width: 434px;
+.overflowH{
+    overflow: hidden;
 }
 
+.divider{
+    height: 0.5rem;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(173,7,7,1) 50%, rgba(242,185,105,1) 100%);
+    border-radius: 50px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border: 3px solid black;
+}
 
+.addShdw{
+    box-shadow: 0px 13px 14px 6px rgba(0,0,0,0.74);
+}
 
 
